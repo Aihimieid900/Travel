@@ -1,0 +1,426 @@
+<!DOCTYPE html> 
+<html lang="zxx">
+<head>
+    <meta cherset="UTF-8">
+    <!--this meta  SPICIAL  for Inter net explore -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- this  meta spicial for MOBAILE only -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| Style in CSS ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+    <link rel="stylesheet" href="css/fontawesome.min.css"/>
+    <link href="css/brands.min.css" rel="stylesheet">
+    <link href="css/solid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| Title ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+    <title>Travel</title>
+</head>
+<body>
+    <!-- This is navbar from BOTSTRAP4-->
+     <header class="change position-relative">
+        <div class="overlay position-absolute"></div>
+          <div id="changeBack" class="carousel position-relative slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#changeBack" data-slide-to="0" class="active"></li>
+              <li data-target="#changeBack" data-slide-to="1"></li>
+              <li data-target="#changeBack" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="background"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="background-2"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="background-3"></div>
+              </div>
+            </div>
+          </div>
+<!-- This is  Navbar from BOOTSTRAP||4 -->
+        <nav class="navbar navbar-expand-lg top navbar-light container  ">
+          <a class="navbar-brand" href="#"><img src="images/logo-dark-299x60.png" alt="logo company"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class=" nav-item nav-link active" href="default.html">HOME<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="default.html" data-scroll="tours">TOURS</a>
+                    <a class="nav-item nav-link" href="default.html" data-scroll="about">ABOUT</a>
+                    <a class="nav-item nav-link" href="default.html" data-scroll="gallery">GALLERY</a>
+                    <a class=" nav-item nav-link" href="default.html" data-scroll="blog">BlOG</a>
+                    <a class="nav-item nav-link" href="default.html" data-scroll="contact">CONTACTS</a>
+                </div>
+            </div>
+        </nav>   
+        <!-- This is  Text && Input -->
+        <div class="text-center cont-center-to-search position-absolute">
+            <P class="h3">Best Tours and T
+            ravel</P>
+            <p class="lead">best tours and travel spacializes in making your trip an absolute success</p>
+            <!-- This Is div spacial in all screen -->
+            <div class="cont-input position-relative">
+               <form class="form-inline   ">
+                    <input class="  form-control mr-sm-2" type="search" placeholder="Your Destination" aria-label="Search">
+                    <input class="form-control mr-sm-2 text-center first-input" onchange=" $(this).ch();" type="date">
+                    <i class="fas fa-long-arrow-alt-right position-absolute"></i>
+                    <input class="form-control mr-sm-2 text-center second-input" type="date"  />
+                    <input class="form-control mr-sm-2 text-center doller" type="search" value="" placeholder="yourBadgut($)" aria-label="Search">
+                     <button class="btn btn-block btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+               <!-- This Is div spacial in  screen WIDTH == 768px -->
+              <div class="media768 text-center cont-center-to-search position-absolute">
+              <form class="form-inline">
+                            <input class="  form-control mr-sm-2" type="search" placeholder="Your Destination" aria-label="Search">
+                            <input class="form-control mr-sm-2 text-center first-input" onchange="$(this).ch();" type="date" >
+                            <i class="fas fa-long-arrow-alt-down position-absolute"></i>
+                            <input class="form-control mr-sm-2 text-center second-input" type="date" />
+                            <input class="form-control mr-sm-2 text-center doller" type="search" value="" placeholder="yourBadgut($)" aria-label="Search">
+                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                </div>
+                <!-- This Is div spacial in  screen  MAX && MIN WIDTH == 576px -->
+                 <div class="media576 text-center cont-center-to-search position-absolute">
+                       <form class="form-inline d-inline-flex">
+                            <input class="  form-control mr-sm-2" type="search" placeholder="Your Destination" aria-label="Search">
+                            <input class="form-control mr-sm-2 text-center first-input" onchange="$(this).ch();" type="date"/>
+                            <i class="fas fa-long-arrow-alt-down position-absolute"></i>
+                            <input class="form-control mr-sm-2 text-center second-input" type="date"/>
+                            <input class="form-control mr-sm-2 text-center doller" type="search" value="" placeholder="yourBadgut($)" aria-label="Search">
+                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                </div>
+        </div>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| END Header  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+     </header>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| Start SECTION TOURS  |||||||||||||||||
+      |||||||||||||||||||||||||||||||||||||||||||||-->
+    <div class="tours">
+      <div class="container">
+      <div class="text-center">
+        <p class="h3">Hot Tours</p>
+        <p class="lead">Check out top-related Tours.</p>
+      </div>
+      <div class=" row justify-content-between">
+          <div class="col-md-4 col-sm-6 position-relative card " >
+          <img src="images/italy.jpg" class="card-img-top" alt="italy"/>
+          <div class="card-body">
+          <h5 class="card-title">Italy</h5>
+          <span class="price position-absolute text-center">1000$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 position-relative card " >
+          <img src="images/japann.jpg" class="card-img-top" alt="japann"/>
+          <div class="card-body">
+              <h5 class="card-title">Japann</h5>
+              <span class="price position-absolute text-center">350$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+                <div class="col-md-4 col-sm-6 position-relative card " >
+        <img src="images/japann.jpg" class="card-img-top" alt="chine"/>
+          <div class="card-body">
+          <h5 class="card-title">Chine</h5>
+          <span class="price position-absolute text-center">450$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+  <div class="col-md-4 col-sm-6 mt-4 card" >
+          <img src="images/italy.jpg" class="card-img-top" alt="italy"/>
+          <div class="card-body">
+          <h5 class="card-title">Italy</h5>
+          <span class="price position-absolute text-center">700$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mt-4  card" >
+          <img src="images/japann.jpg" class="card-img-top" alt="japann"/>
+          <div class="card-body">
+              <h5 class="card-title">Japann</h5>
+              <span class="price position-absolute text-center">950$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+                <div class="col-md-4 col-sm-6  mt-4 card" >
+        <img src="images/chine.jpg" class="card-img-top" alt="chine"/>
+          <div class="card-body">
+          <h5 class="card-title">Chine</h5>
+          <span class="price position-absolute text-center">850$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+
+      </div>
+      <button class="show-all position-relative btn btn-success">See All Tours</button>
+        <div class="all-tour">
+        <div class="row ">
+                <div class="col-md-4 col-sm-6 mt-4 card" >
+         <img src="images/thailand.jpg" class="card-img-top" alt="thailand"/>
+          <div class="card-body">
+              <h5 class="card-title">Thailand</h5>
+               <span class="price position-absolute text-center">600$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+                <div class="col-md-4 col-sm-6 mt-4 card" >
+          <img src="images/turkey.jpg" class="card-img-top" alt="turkey"/>
+          <div class="card-body">
+         <h5 class="card-title">Turkey</h5>
+          <span class="price position-absolute text-center">1250$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+          <div class="col-md-4 col-sm-6 d-sm-none  d-md-block mt-4 card" >
+        <img src="images/england.jpg" class="card-img-top" alt="england"/>
+          <div class="card-body">
+     <h5 class="card-title">England</h5>
+      <span class="price position-absolute text-center">900$</span>
+          <p class="card-text">Lorem ispum dolor sit amnet.</p>
+        </div>
+        </div>
+   </div>
+</div>
+  <button class="hide-all position-relative btn btn-success">See Less</button>
+      </div>
+    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| END  SECTION TOURS||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+    </div>
+    <section id="about" class="why-us position-relative">
+      <div class="overlay position-absolute"></div>
+            <div class="why text-center container position-relative ">
+              <p class="h2">Why Us?</p>
+            <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet. Lorem ispum dolor sit amnet.Lorem ispum dolor sit amnet.Lorem ispum dolor sit amnet.Lorem ispum dolor sit amnet.</p>
+          </div>
+          <div class="container position-relative">
+            <div class="inner row justify-content-between">
+              <div class="inner-why  col-sm-6 col-md-4">
+                <div class="float-left position-absolute icon-inner-why">
+                <i class="fas fa-folder-open fa-2x"></i>
+                </div>
+                <div class="description float-right">
+                <p class="h6">THEE BEST SERVICE</p>
+                <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet</p>
+              </div>
+              </div>
+               <div class="inner-why col-sm-6 col-md-4 active">
+                <div class="float-left position-absolute icon-inner-why">
+                <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="description float-right">
+                <p class="h6">THEE BEST SERVICE</p>
+                <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet</p>
+               </div>
+              </div>
+               <div class="inner-why col-sm-6 col-md-4">
+                <div class="float-left position-absolute icon-inner-why">
+                <i class="fas fa-hand-holding-usd fa-2x"></i>
+                </div>
+                <div class="description float-right">
+                <p class="h6">THEE BEST SERVICE</p>
+                <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet</p>
+              </div>
+              </div>
+               <div class="inner-why col-sm-6 col-md-4">
+                <div class="float-left position-absolute icon-inner-why">
+                <i class="fas fa-headset fa-2x"></i>
+                </div>
+                <div class="description float-right">
+                <p class="h6">THEE BEST SERVICE</p>
+                <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet</p>
+              </div>
+              </div>
+               <div class="inner-why col-sm-6 col-md-4">
+                <div class="float-left position-absolute icon-inner-why">
+                <i class="fas fa-trophy fa-2x"></i>
+                </div>
+                <div class="description float-right">
+                <p class="h6">THEE BEST SERVICE</p>
+                <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet</p>
+              </div>
+              </div>
+               <div class="inner-why col-sm-6 col-md-4">
+                <div class="float-left position-absolute icon-inner-why">
+                <i class="fas fa-coins fa-2x"></i>
+                </div>
+                <div class="description float-right">
+                <p class="h6">THEE BEST SERVICE</p>
+                <p class="lead">Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet</p>
+              </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="gallery" class="testeomnils">
+      <div class="daecription text-center container">
+        <p class="h3">What Our Clients Say</p>
+        <p class="lead">
+          Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor
+        </p>
+      </div> 
+        <div class="container">
+          <div class=" row justify-content-between  ">
+              <div class="person col-4 d-inline-block text-center">
+        <img class="rounded d-block w-80 img-fluid" src="images/user-01-100x100.png" 
+        alt="women"/>
+        <p class="h4">ANGELENA BEN</p>
+        <p class="lead">
+           Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.
+        </p>
+          </div>
+            <div class="person col-4 d-inline-block text-center">
+        <img class="rounded d-block  w-80 img-fluid" src="images/user-01-100x100.png" 
+        alt="women"/>
+        <p class="h4">ANGELENA BEN</p>
+        <p class="lead">
+           Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.
+        </p>
+          </div>
+            <div class="person col-4 d-inline-block text-center">
+        <img class="rounded d-block w-80 img-fluid " src="images/user-01-100x1001.png" 
+        alt="Man"/>
+        <p class="h4">Tomas Shalpay</p>
+        <p class="lead">
+           Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.
+        </p>
+          </div>
+          </div>
+        </div>
+             <button class="show-tests-all position-relative btn btn-success">See All Review</button>
+              <div class="container all-tests">
+          <div class=" row justify-content-between  ">
+              <div class="person col-4 d-inline-block text-center">
+        <img class="rounded d-block w-80 img-fluid" src="images/user-01-100x100.png" 
+        alt="women"/>
+        <p class="h4">ANGELENA BEN</p>
+        <p class="lead">
+           Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.
+        </p>
+          </div>
+            <div class="person col-4 d-inline-block text-center">
+        <img class="rounded d-block  w-80 img-fluid" src="images/user-01-100x100.png" 
+        alt="women"/>
+        <p class="h4">ANGELENA BEN</p>
+        <p class="lead">
+           Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.
+        </p>
+          </div>
+            <div class="person col-4 d-inline-block text-center">
+        <img class="rounded d-block w-80 img-fluid" src="images/user-01-100x1001.png" 
+        alt="Man"/>
+        <p class="h4">Tomas Shalpay</p>
+        <p class="lead">
+           Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.
+        </p>
+          </div>
+          </div>
+                  </div>
+            <button class="hide-tests-all position-relative btn btn-success">See Less</button>
+    </section>
+    <section id="blog" class="explore-world">
+      <div class="explore-world-background  position-relative">
+      <div class="overlay position-absolute"></div>
+<div class="cont-explore-world position-absolute  container">
+      <p class="lead text-right">EXPLORE THE DISTANT CORNERS OF THE WORLD</p>
+      <button class="find-tour position-absolute btn btn-success">FIND YOUR PROJEC TOUR</button>
+    </div>
+      </div>
+    </section>
+    <section class="counter container">
+    <div class="row text-center">
+      <div class="one col-3 ">
+       <i class="icon fas fa-user-tie fa-3x" style="color:var(--color-green)"></i>
+        <span class=" h2 d-block">624</span>
+        <span class="lead">HAPPY CLIENTS</span>
+      </div>
+      <div class="one col-3 ">
+       <i class="icon fas fa-plane-departure fa-3x" style="color:var(--color-green)"></i>
+        <span class=" h2 d-block">112</span>
+        <span class="lead">AMAZING TOUR</span>
+      </div>
+      <div class="one col-3 ">
+        <i class="icon fas fa-briefcase fa-3x" style="color:var(--color-green)"></i>
+        <span class=" h2 d-block" >592</span>
+      <span class="lead">PARTNERS</span>
+      </div>
+      <div class="one col-3 ">
+       <i class="icon fas fa-comment-alt fa-3x" style="color:var(--color-green)"></i>
+        <span class=" h2 d-block" >09</span>
+        <span class="lead">QUESTIONS ANSWERED</span>
+      </div>
+    </div>
+    </section>
+     <section class="explore-world-flight ">
+      <div class="explore-world-flight-background  position-relative">
+      <div class="overlay position-absolute"></div>
+      <div class="container">
+<div class="cont-explore-world position-absolute  ">
+      <p class="lead text-left">Fastest Way ToCompare and Book Over 450 Cheap Flights</p>
+      <button class="find-flight  btn btn-lg btn-success">FIND YOUR PROJEC TOUR</button>
+    </div>
+  </div>
+      </div>
+    </section>
+    <section id="contact" class="before-footer">
+      <div class="container">
+      <div class="row justify-content-between">
+      <div class="col-sm-6 col-md-3  text-center logo-des">
+        <img src="images/logo-dark-299x60.png" class="logo-in-footer w-80" alt="logo company"/>
+        <p class="lead">  Lorem ispum dolor sit amnet Lorem ispum dolor sit amnet Lorem ispum dolor.</p>
+      </div>
+      <div class="col-sm-6 col-md-3 text-left contact">
+        <p class="h4">Our Contacts</p>
+        <ul class="list-unstyled ">
+          <li><i class="fas fa-map-marker-alt"></i> Your Address Will be Here 123456 USA
+          </li>
+          <li><i class="fas fa-phone"></i> +000 0123456789</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-3 text-left contact-2">
+         <ul class=" list-unstyled">
+          <li class=" "><i class="fas fa-mobile-alt"></i> +000 0123456789<li>
+          <li class=" "><i class="fas fa-envelope"></i> Your Email@gmail.com</li>
+          <li class=" "><i class="fas fa-globe-africa"></i> www.website.com<li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-3  text-center ">
+        <p class="h3">Follow US</p>
+        <ul class="  list-unstyled ">
+          <li class="border float-left  follow-icon  text-center active"><i class="fab fa-facebook-f "></i><li>
+          <li class="border float-left follow-icon text-center"><i class="fab fa-twitter "></i></li>
+          <li class="border float-left follow-icon text-center"><i class="fab fa-youtube "></i><li>
+          <li class="border float-left follow-icon mb-4 text-center"><i class="fab fa-linkedin-in "></i><li>
+        </ul>
+         <button class="btn btn-lg btn-success mt-4 sub btn-block">Subscribe</button>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- This is complete a all style in all screen -->
+    <footer class="style-footer border-top">
+      <div class=" container">
+      <p class="copy float-left">copyright&copy;2017 Travel and Tourism All Right Reseved</p>
+      <ul class="list-inline terms float-right ">
+  <li class="list-inline-item">Lorem ipsum</li>
+  <li class="list-inline-item">Phasellus iaculis</li>
+  <li class="list-inline-item">Nulla volutpat</li>
+</ul>
+</div>
+    </footer>
+    <div class="loading position-fixed ">
+      <div class="icon-load position-absolute">
+       <i class=" position-absolute fas fa-plane-departure fa-3x" style="color:var(--color-green)"></i></div>
+    </div>
+<div class="to-top position-fixed">
+  <i class="fas fa-arrow-up fa-2x"></i>
+</div>
+      <script src="js/jquery-3.3.1.min.js"></script>
+     <script  src="js/brands.min.js"></script>
+     <script  src="js/solid.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/default.js"></script>
+</body>
+</html>
